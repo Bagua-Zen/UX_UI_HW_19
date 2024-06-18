@@ -5,6 +5,14 @@
   font-style: normal;
 }
 
+body {
+  margin: 0;
+  background: #1F1F1F;
+background: -moz-linear-gradient(top, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
+background: -webkit-linear-gradient(top, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
+background: linear-gradient(to bottom, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -13,22 +21,16 @@
   justify-content: space-between;
 }
 
-body {
-  margin: 0;
-  background-color: #2d324e;
+
+
+#section1 {
+  padding:1%
 }
-h1{ 
-  border-bottom: 1px solid goldenrod;
-}
-h3{ 
-  display: flex;
-  text-align: center;
-  max-width:450px;
-}
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #171b29;
+  background-color: #0c0c0f;
   padding-left: 4px;
   padding-right: 4px;
 }
@@ -38,15 +40,18 @@ header ul {
   align-self:flex-end;
   color: white;
   align-self: bottom;
-  padding-bottom: 0%;
-  margin-bottom: .35%;
+  margin-bottom: 5px;
 }
 
 header li {
   display: inline;
-  padding: 0px 5px;
-  border-bottom: 1px solid goldenrod;
+  border-bottom: 1px solid white;
+  margin: 4px;
 }
+
+
+
+
 
 .heroImg {
   display: flex;
@@ -56,7 +61,19 @@ header li {
   margin-bottom: 20px;
 }
 
-.content {
+h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: .25%;
+}
+ 
+h3 { 
+   display: flex;
+   text-align: center;
+   max-width:450px;
+}
+ 
+.contentP {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
@@ -67,6 +84,7 @@ header li {
   background-color: #FFFFFF;
   max-width: 85%;
   padding: 2%;
+  margin-top: 5%;
   box-shadow: -10px 15px 4px rgba(23, 24, 27, 0.582);
 }
 
@@ -75,7 +93,6 @@ header li {
   max-width: 100%;
   max-height: 100%;
   min-height: 50%;
-  
 }
 
 .aboutMe {
@@ -85,8 +102,24 @@ header li {
   max-width: 30%;
   max-height: 30%;
   padding:2%;
+}
+
+#disneyQ{
+  margin-bottom: 0%;
+  text-align: center;
+  color:darkgoldenrod;
+}
+
+.main {
   
 }
+
+
+.sectionTitle{ 
+  border-bottom: 1px solid darkgoldenrod;
+  margin-bottom: 2%;
+}
+
 
 .mySkills{
   display:flex;
@@ -156,6 +189,11 @@ header li {
   margin: 2%;
 }
 
+
+
+
+
+
 .myWork{
   display: flex;
   flex-direction: column;
@@ -166,7 +204,6 @@ header li {
 
 
 .workGrid {
-  background-color: #2d324e;
   display:grid;
   grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
@@ -247,7 +284,7 @@ footer ul {
 footer li {
   vertical-align: inline-block;
   padding: 0px 7px;
-  border-bottom: 1px solid goldenrod;
+  border-bottom: 1px solid white;
 }
 
 button{
@@ -269,7 +306,7 @@ button{
 }
 
 @media screen and (max-width: 800px) {
-  .content {
+  .contentP {
    display: flex;
    flex-direction:column;
   }

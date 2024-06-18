@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!--unseen stuff-->
   <head>
      <title>Homework for 19</title>
      <link href="./css/style.css" type="text/css" rel="stylesheet">
@@ -11,8 +12,8 @@
           scroll-behavior: smooth;
         }
         
-        #section1 {
-          color:white; 
+        #section1 { 
+         margin: 0%;
         }
         
         #section2 {
@@ -20,9 +21,12 @@
         }
         </style>
   </head>
+  <!--all of the stuff contained in the main body-->
   <body>
      <div class="wrapper">
-         <header>
+
+     <!--Header container-->
+         <header id="section1">
              <img src="./images/True new logo in the works.png">
              <ul>
                  <li>ABOUT</li>
@@ -31,16 +35,19 @@
                  <li>CONTACT</li>
              </ul> 
          </header>
+     <!--everything in the hero section-->
          <section class="heroImg">
-             <div class="content">
+             <div class="contentP">
+                 <!--picture of self-->
                     <img src="./images/picture of me.svg"class="flexPic">
+                 <!--Bio-->
                     <div class="aboutMe">
-                     <h2>Hi, I am Tim M., a collaborative UI & UX designer.</h2>
-                     <h3>“Get the story. The story is the most important thing. Once you have got the story then everything else will fall into place.” — Walt Disney</h3>
+                     <h1> Hi, I am Tim M., a collaborative UI & UX designer.</h1>
+                     <h4 id="disneyQ">"Get the story. The story is the most important thing. Once you have got the story then everything else will fall into place." —Walt Disney</h4>
                      <p>Multi-skilled and highly adaptable, I am ready to help and eager to learn what your users want and need as I strive and endeavor to create a balance between business goals, user goals, and technical limitations.
-                        <button>View Resume</button>
+                        <button id="resumeButton">View Resume</button>
                         <Button>
-                         <div class="main" id="section1">
+                         <div class="main">
                             <a href="#section2">View My Recent work</a>
                          </div>
                         </Button>
@@ -50,7 +57,7 @@
          </section>
 <!--My UX SKills section coded using CSS flex-->
          <section class="mySkills">
-             <h1>My skills</h1>
+             <h1 class="sectionTitle">My skills</h1>
              <div class="flexContainer">
                  <div id="uiDesign">
                      <img src="./images/UI design icon.png">
@@ -72,7 +79,7 @@
          </section>
 <!-- My Work Section Constructed using CSS Grid -->
          <section class="myWork">
-               <h1>My work</h1>    
+               <h1 class="sectionTitle">My work</h1>    
                <div class="workGrid">      
                      <div id="child1">
                          <img src="./images/cooking app image.png" class="sous">
