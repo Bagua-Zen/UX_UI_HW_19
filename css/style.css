@@ -1,0 +1,329 @@
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+  background-color: #2d324e;
+}
+h1{ 
+  border-bottom: 1px solid goldenrod;
+}
+h3{ 
+  display: flex;
+  text-align: center;
+  max-width:450px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #171b29;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+header ul {
+  display: flex;
+  align-self:flex-end;
+  color: white;
+  align-self: bottom;
+  padding-bottom: 0%;
+  margin-bottom: .35%;
+}
+
+header li {
+  display: inline;
+  padding: 0px 5px;
+  border-bottom: 1px solid goldenrod;
+}
+
+.heroImg {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  max-width: 85%;
+  padding: 2%;
+  box-shadow: -10px 15px 4px rgba(23, 24, 27, 0.582);
+}
+
+.flexPic {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 50%;
+  
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 30%;
+  max-height: 30%;
+  padding:2%;
+  
+}
+
+.mySkills{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  color:white;
+  margin-bottom: 20px;
+}
+
+.flexContainer {
+  display:flex;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 40px;
+  width: 84%;
+  background-color:#616680;
+  box-shadow: 8px 15px 4px rgba(23, 24, 27, 0.582);
+  min-height: 450px;
+  padding: 2%;
+}
+
+#uiDesign{
+  display:flex;
+  flex-direction: column;
+  border-radius: 25px; 
+  width: 33%;
+  max-width: 150px;
+  background-color:#0f194b;
+  box-shadow: 4px 6px 4px rgba(28, 29, 32, 0.582);
+  color: #FFFFFF;
+  padding:1.5%;
+  padding-top: 30px;
+  align-items: center;
+  margin: 2%;
+  
+}
+
+#uxDesign{
+  display:flex;
+  flex-direction: column;
+  border-radius: 25px; 
+  width: 33%;
+  max-width: 150px;
+  background-color: #0f194b;
+  box-shadow: 4px 6px 4px rgba(28, 29, 32, 0.582);
+  color: #FFFFFF;
+  padding:1.5%;
+  padding-top: 30px;
+  align-items: center;
+  margin: 2%;
+}
+
+#userTesting{ 
+  display:flex;
+  flex-direction: column; 
+  border-radius: 25px;
+  width: 33%;
+  max-width: 150px;
+  background-color: #0f194b;
+  box-shadow: 4px 6px 4px rgba(28, 29, 32, 0.582);
+  color: #FFFFFF;
+  padding:1.5%;
+  padding-top: 30px;
+  align-items: center;
+  text-align: center;
+  margin: 2%;
+}
+
+.myWork{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  color:white;
+  align-items: center;
+}
+
+
+.workGrid {
+  background-color: #2d324e;
+  display:grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  padding: 20px;
+  margin: 10px;
+  height: 1500px;
+  max-width: 1440px;
+}
+
+.workGrid p{ 
+  max-width:300px;
+  padding-top: 10%;
+  padding: 1%;
+}
+
+#child1{ 
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  grid-row-start:1;
+  grid-row-end:6;
+  grid-column-start:2;
+  grid-column-end:7;
+  padding:2%;
+  background-color:#616680;
+  box-shadow: -8px 15px 3px rgba(23, 24, 27, 0.582);
+} 
+
+#child2{ 
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  grid-row-start: 8;
+  grid-row-end: 13;
+  grid-column-start:9;
+  grid-column-end: 4;
+  padding: 3%;
+  background-color: #616680;
+  box-shadow: 8px 15px 3px rgba(23, 24, 27, 0.582);
+}
+
+#child3{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  grid-row-start:15;
+  grid-row-end: 20;
+  grid-column-start:2;
+  grid-column-end:7;
+  padding:3%;
+  background-color: #616680;
+  box-shadow: -8px 15px 3px rgba(23, 24, 27, 0.582);
+}
+
+.dDfoundation{
+  display: flex;
+  size:20%;
+}
+
+footer {
+  background-color: #0c0c0f;
+  padding: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+footer li {
+  vertical-align: inline-block;
+  padding: 0px 7px;
+  border-bottom: 1px solid goldenrod;
+}
+
+button{
+  margin-bottom: 5px;
+  box-shadow: 0px 4px 2px rgba(28, 29, 32, 0.582);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+   width: 100%; }
+}
+
+@media screen and (max-width: 1520px) {
+  .flexPic {
+   display: flex;
+   height:50%;
+   width: 50%;
+   }
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+   display: flex;
+   flex-direction:column;
+  }
+  .aboutMe {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .workGrid {
+   display: flex;
+   flex-direction:column;
+   justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flexContainer {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   align-items: center;
+   width: 80%;
+   height: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #child1 {
+   display: flex;
+   flex-direction:row;
+   align-self: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #child2 {
+   display: flex;
+   flex-direction:row-reverse;
+   align-self: center;
+   } 
+  .dreams {
+    display: flex;
+    max-width: 300px;
+    max-height: 300px; 
+  }
+}
+
+@media screen and (max-width: 600px){
+  #child3 {
+    display: flex;
+    
+  }
+  .dDfoundation {
+    max-width: 270px;
+  }
+}

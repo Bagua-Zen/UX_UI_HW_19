@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Homework for mod 19</title>
+     <link href="./css/style.css" type="text/css" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        
+        #section1 {
+          color:white; 
+        }
+        
+        #section2 {
+          color: white;
+        }
+        </style>
+  </head>
+  <body>
+     <div class="wrapper">
+         <header>
+             <img src="./images/True new logo in the works.png">
+             <ul>
+                 <li>ABOUT</li>
+                 <li>SKILLS</li>
+                 <li>WORK</li>
+                 <li>CONTACT</li>
+             </ul> 
+         </header>
+         <section class="heroImg">
+             <div class="content">
+                    <img src="./images/picture of me.svg"class="flexPic">
+                    <div class="aboutMe">
+                     <h2>Hi, I am Tim M., a collaborative UI & UX designer.</h2>
+                     <h3>“Get the story. The story is the most important thing. Once you have got the story then everything else will fall into place.” — Walt Disney</h3>
+                     <p>Multi-skilled and highly adaptable, I am ready to help and eager to learn what your users want and need as I strive and endeavor to create a balance between business objectives and user needs.
+                        <button>View Resume</button>
+                        <Button>
+                         <div class="main" id="section1">
+                            <a href="#section2">View My Recent work</a>
+                         </div>
+                        </Button>
+                     </p>
+                   </div>
+             </div>
+         </section>
+<!--My UX SKills section coded using CSS flex-->
+         <section class="mySkills">
+             <h1>My skills</h1>
+             <div class="flexContainer">
+                 <div id="uiDesign">
+                     <img src="./images/UI design icon.png">
+                     <h3>UI design</h3>
+                     <p>User interface design</p>
+                 </div>
+                 <div id="uxDesign">
+                     <img src="./images/UX design icon.png">
+                     <h3>UX design</h3>
+                     <p>User experience design that aims to make the user flow as pain free as possible.</p>
+                 </div>
+                 
+                 <div id="userTesting">
+                     <img src="./images/research and testing icon.png">
+                     <h3>User and web research</h3>
+                     <p> via various forms of testing and research methods I focus on the needs and concerns of the users </p>
+                 </div>
+             </div>
+         </section>
+<!-- My Work Section Constructed using CSS Grid -->
+         <section class="myWork">
+               <h1>My work</h1>    
+               <div class="workGrid">      
+                     <div id="child1">
+                         <img src="./images/cooking app image.png" class="sous">
+                         <div>
+                            <h4>
+                                Cooking AR app sous Chef
+                            </h4>
+                             <p>How Could we go about creating an app for creating a meal from current ingredients in your fridge by simply using pictures of what you have to pull up relevant recepies?</p>
+                             <button>Read Case Study</button>
+                         </div>
+                      </div>
+                     <div id="child2">
+                          <img src="./images/themepark app.png" class="dreams">
+                          <div>
+                          <h4>
+                             Themepark app
+                          </h4>
+                             <p>
+                              An app for navigating a park with AR and maps to find bathrooms, and othe items quickly.
+                             </p>
+                             <button>Read Case Study</button>
+                          </div>
+                      </div>
+                     <div id="child3">
+                        <img src="./images/doris day foundation.png" class="dDfoundation">
+                        <div>
+                        <h4>
+                            Non-profit redesign
+                        </h4>
+                        <p>
+                          How can we best convey it's internal message?
+                        </p>
+                        <button>Read Case Study</button>
+                        </div> 
+                      </div>
+               </div>
+               <button>View all Projects</button>
+               <Button>
+                <div class="main" id="section2">
+                    <a href="#section1">Click Me to Scroll back to the top</a>
+                </div>
+               </Button>   
+         </section>
+         <footer>
+             <ul>
+                 <li>ABOUT</li>
+                 <li>SKILLS</li>
+                 <li>WORK</li>
+                 <li>CONTACT</li>
+             </ul>
+         </footer>
+     </div>
+  </body>
+</html>
