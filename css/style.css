@@ -219,6 +219,13 @@ h3 {
   padding: 1%;
 }
 
+.myButton {
+  color: rgb(255, 255, 255); font-size: 14px; line-height: 14px; padding: 5px; border-radius: 6px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(17, 44, 66) 0%, rgb(210, 252, 182) 0%, rgb(67, 83, 63) 100%); box-shadow: rgba(0, 0, 0, 0.36) 0px 7px 3px 0px; border: 1px solid rgb(0, 0, 0); display: inline-block;}
+  .myButton:hover {
+  background: #112C42; }
+  .myButton:active {
+  background: #43533F; }
+
 #child1{ 
   display: flex;
   text-align: center;
@@ -278,13 +285,14 @@ footer {
 
 footer ul {
   list-style: none;
-  padding-left: 5px;
+  padding: 5px;
 }
 
 footer li {
   vertical-align: inline-block;
-  padding: 0px 7px;
+  text-align: center;
   border-bottom: 1px solid white;
+  margin-bottom: 10px;
 }
 
 button{
