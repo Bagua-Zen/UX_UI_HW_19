@@ -200,6 +200,7 @@ h3 {
   padding: 5px;
   color:white;
   align-items: center;
+  margin-bottom: 10%;
 }
 
 
@@ -220,12 +221,27 @@ h3 {
 }
 
 .myButton {
-  color: rgb(255, 255, 255); font-size: 14px; line-height: 14px; padding: 5px; border-radius: 6px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(64, 166, 249) 0%, rgb(81, 160, 252) 0%, rgb(30, 48, 99) 100%); box-shadow: rgba(0, 0, 0, 0.36) 0px 7px 3px 0px; border: 1px solid rgb(0, 0, 0); display: inline-block;}
+  color: rgb(255, 255, 255); 
+  font-size: 14px; 
+  line-height: 14px; 
+  padding: 5px; 
+  border-radius: 6px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-weight: normal; 
+  text-decoration: none; 
+  font-style: normal; 
+  font-variant: normal; 
+  text-transform: none; 
+  background-image: linear-gradient(rgb(61, 77, 132) 0%, rgb(127, 149, 211) 0%, rgb(59, 67, 99) 100%); 
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 2px 0px; 
+  border: 1px solid rgb(0, 0, 0); 
+  display: inline-block;}
   .myButton:hover {
-  background: #40A6F9; }
+  background: #3D4D84; }
   .myButton:active {
-  background: #1E3063; }
-  
+  background: #3B4363; }
+
+
 #child1{ 
   display: flex;
   text-align: center;
@@ -286,6 +302,7 @@ footer {
 footer ul {
   list-style: none;
   padding: 5px;
+  margin-bottom: .5%;
 }
 
 footer li {
@@ -356,10 +373,9 @@ button{
    flex-direction:row-reverse;
    align-self: center;
    } 
-  .dreams {
+  .departmentOfEd {
     display: flex;
-    max-width: 300px;
-    max-height: 300px; 
+    min-width: 65%; 
   }
 }
 
