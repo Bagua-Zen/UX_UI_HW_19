@@ -220,12 +220,12 @@ h3 {
 }
 
 .myButton {
-  color: rgb(255, 255, 255); font-size: 14px; line-height: 14px; padding: 5px; border-radius: 6px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(17, 44, 66) 0%, rgb(210, 252, 182) 0%, rgb(67, 83, 63) 100%); box-shadow: rgba(0, 0, 0, 0.36) 0px 7px 3px 0px; border: 1px solid rgb(0, 0, 0); display: inline-block;}
+  color: rgb(255, 255, 255); font-size: 14px; line-height: 14px; padding: 5px; border-radius: 6px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(64, 166, 249) 0%, rgb(81, 160, 252) 0%, rgb(30, 48, 99) 100%); box-shadow: rgba(0, 0, 0, 0.36) 0px 7px 3px 0px; border: 1px solid rgb(0, 0, 0); display: inline-block;}
   .myButton:hover {
-  background: #112C42; }
+  background: #40A6F9; }
   .myButton:active {
-  background: #43533F; }
-
+  background: #1E3063; }
+  
 #child1{ 
   display: flex;
   text-align: center;
