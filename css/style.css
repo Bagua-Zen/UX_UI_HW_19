@@ -53,15 +53,20 @@
   font-style: italic;
 }
 
-
+.playwrite-us-trad {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 body {
   margin: 0;
   background: #1F1F1F;
-background: -moz-linear-gradient(top, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
-background: -webkit-linear-gradient(top, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
-background: linear-gradient(to bottom, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
-font-family: "Merriweather", serif;
+  background: -moz-linear-gradient(top, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
+  background: -webkit-linear-gradient(top, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
+  background: linear-gradient(to bottom, #1F1F1F 0%, #2D324E 52%, #1F1F1F 100%);
+  font-family: "Merriweather", serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -98,7 +103,11 @@ header ul {
   padding-bottom: 0%;
   margin-bottom: 0%;
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 header p {
@@ -159,14 +168,22 @@ h3 {
   padding:2%;
 }
 
+.aboutMe p{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 #disneyQ{
   margin-bottom: 0%;
   text-align: center;
   color:darkgoldenrod;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playwrite US Trad", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style:italic;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .main {
@@ -186,6 +203,13 @@ h3 {
   align-items: center;
   color:white;
   margin-bottom: 20px;
+}
+
+.skillInfo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .flexContainer {
@@ -214,7 +238,6 @@ h3 {
   padding-top: 30px;
   align-items: center;
   margin: 2%;
-  
 }
 
 #uxDesign{
@@ -248,11 +271,6 @@ h3 {
   margin: 2%;
 }
 
-
-
-
-
-
 .myWork{
   display: flex;
   flex-direction: column;
@@ -261,7 +279,6 @@ h3 {
   align-items: center;
   margin-bottom: 10%;
 }
-
 
 .workGrid {
   display:grid;
@@ -278,6 +295,7 @@ h3 {
   padding-top: 10%;
   padding: 1%;
 }
+
 h4{
   border-bottom: 2px solid white;
 }
