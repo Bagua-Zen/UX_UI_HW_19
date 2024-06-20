@@ -17,22 +17,39 @@
         }
         
         #section2 {
-          color: white;
+          color:white;
         }
+
+        a.navLinks:hover, a.navLinks:active {font-size: 120%;}
+        a.navLinks:hover, a.navLinks:active {background: rgb(96, 104, 139);}
+        a.navLinks { color: inherit; } 
+        a.navLinks:visited, a.navLinks:link {text-decoration: none;}
+        a.navLinks:hover, a.navLinks:active {text-decoration: 1px darkgoldenrod underline;}
         </style>
   </head>
   <!--all of the stuff contained in the main body-->
   <body>
-     <div class="wrapper">
-
+    <div id="loadingScreen"> 
+        <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
+            <iframe 
+             src="https://giphy.com/embed/cIbJ5bBlNLxynVGYzb" 
+             width="100%" 
+             height="100%" 
+             style="position:absolute" 
+             frameBorder="0" 
+             class="giphy-embed" 
+             allowFullScreen></iframe>
+        </div>
+    </div>
+     <div class="wrapper" id="page" style="display:none;">
      <!--Header container-->
          <header id="section1">
              <img src="./images/True new logo in the works.png">
              <ul>
-                 <li>ABOUT</li>
-                 <li>SKILLS</li>
-                 <li>WORK</li>
-                 <li>CONTACT</li>
+                <p><a class="navLinks" href="default.asp">About</a></p>
+                <p><a class="navLinks" href="default.asp">Skills</a></p>
+                <p><a class="navLinks" href="default.asp">Work</a></p>
+                <p><a class="navLinks" href="default.asp">Contact</a></p>
              </ul> 
          </header>
      <!--everything in the hero section-->
@@ -46,8 +63,8 @@
                      <h4 id="disneyQ">"Get the story. The story is the most important thing. Once you have got the story then everything else will fall into place." —Walt Disney</h4>
                      <p>Multi-skilled and highly adaptable, I am ready to help and eager to learn what your users want and need as I strive and endeavor to create a balance between business goals, user goals, and technical limitations.
                         <button id="resumeButton" class="myButton">View Resume</button>
-                        <Button>
-                         <div class="main">
+                        <Button class="smoothScroll">
+                         <div>
                             <a href="#section2">
                                 View My Recent work
                             </a>
@@ -66,6 +83,7 @@
                      <h3>UI design</h3>
                      <p>Creating an aesthetically pleasing interface with balance between occupied and "white" space. With special attention to detail, consistancy, and contemporary flair to best promote your company and users.</p>
                  </div>
+
                  <div id="uxDesign">
                      <img src="./images/UX design icon.png">
                      <h3>UX design</h3>
@@ -90,7 +108,7 @@
                                 Cooking AR app sous Chef
                             </h4>
                              <p>How Could we go about creating an app for creating a meal from current ingredients in your fridge by simply using pictures of what you have to pull up relevant recepies?</p>
-                             <button>Read Case Study</button>
+                             <button class="caseStudyB">Read Case Study</button>
                          </div>
                       </div>
                      <div id="child2">
@@ -102,7 +120,7 @@
                              <p>
                               How can we make the site more engaging for new and current users in a way that also provides curated content for easier access to the sites resources?
                              </p>
-                             <button>Read Case Study</button>
+                             <button class="caseStudyB">Read Case Study</button>
                           </div>
                       </div>
                      <div id="child3">
@@ -112,9 +130,9 @@
                             Non-profit redesign
                         </h4>
                         <p>
-                          How can we best convey it's internal message?
+                          How can we best convey it's internal message to keep the users informed of remaining forms of help?
                         </p>
-                        <button>Read Case Study</button>
+                        <button class="caseStudyB">Read Case Study</button>
                         </div> 
                       </div>
                </div>
@@ -126,13 +144,15 @@
                  <li>SKILLS</li>
                  <li>WORK</li>
                  <li>CONTACT</li>
-                 <Button>
-                    <div class="main">
+                 <Button class="smoothScroll">
+                    <div>
                         <a href="#section1">Click Me to Scroll back to the top</a>
                     </div>
                  </Button>   
              </ul>
          </footer>
      </div>
+  <script src="js/index.js"></script>
   </body>
+  
 </html>

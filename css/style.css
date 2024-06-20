@@ -37,19 +37,16 @@ header {
 
 header ul {
   display: flex;
-  align-self:flex-end;
+  align-self:baseline;
   color: white;
-  align-self: bottom;
-  margin-bottom: 5px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  margin-top: 0px;
 }
 
-header li {
-  display: inline;
-  border-bottom: 1px solid white;
-  margin: 4px;
+header p {
+  margin-left: 8px;
 }
-
-
 
 
 
@@ -219,6 +216,9 @@ h3 {
   padding-top: 10%;
   padding: 1%;
 }
+h4{
+  border-bottom: 2px solid white;
+}
 
 .myButton {
   color: rgb(255, 255, 255); 
@@ -234,7 +234,7 @@ h3 {
   text-transform: none; 
   background-image: linear-gradient(rgb(61, 77, 132) 0%, rgb(127, 149, 211) 0%, rgb(59, 67, 99) 100%); 
   box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 2px 0px; 
-  border: 1px solid rgb(0, 0, 0); 
+  border:none; 
   display: inline-block;}
   .myButton:hover {
   background: #3D4D84; }
@@ -312,11 +312,34 @@ footer li {
   margin-bottom: 10px;
 }
 
-button{
-  margin-bottom: 5px;
-  box-shadow: 0px 4px 2px rgba(28, 29, 32, 0.582);
-}
+.caseStudyB{
+    color: rgb(255, 255, 255); 
+    font-size: 13px; 
+    line-height: 13px; 
+    padding: 5px; 
+    border-radius: 4px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(rgb(143, 185, 123) 0%, rgb(169, 219, 145) 0%, rgb(0, 15, 32) 100%); box-shadow: rgba(0, 0, 0, 0.47) 0px 12px 15px 1px; border: 0px solid rgb(28, 110, 164); display: inline-block;}
+    .caseStudyB:hover {
+    background: #7dc260; }
+    .caseStudyB:active {
+    background: #000F20; }
 
+.smoothScroll{
+    color: rgb(255, 255, 255); font-size: 13px; line-height: 13px; padding: 5px; border-radius: 4px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(139, 188, 93) 0%, rgb(213, 247, 97) 100%, rgb(8, 40, 2) 100%); box-shadow: rgba(0, 0, 0, 0.47) 0px 12px 15px 0px; border: 0px solid rgb(28, 110, 164); display: inline-block;}
+    .smoothScroll:hover {
+    background: #8BBC5D; }
+    .smoothScroll:active {
+    background: #082802; }
+  
+
+
+    
 @media screen and (max-width: 600px) {
   body {
    width: 100%; }
@@ -381,8 +404,7 @@ button{
 
 @media screen and (max-width: 600px){
   #child3 {
-    display: flex;
-    
+    display: flex; 
   }
   .dDfoundation {
     max-width: 270px;
