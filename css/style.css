@@ -5,6 +5,7 @@
   font-style: normal;
 }
 
+
 body {
   margin: 0;
   background: #1F1F1F;
@@ -35,6 +36,9 @@ header {
   padding-right: 4px;
 }
 
+
+
+
 header ul {
   display: flex;
   align-self:baseline;
@@ -42,10 +46,11 @@ header ul {
   padding-bottom: 0%;
   margin-bottom: 0%;
   margin-top: 0px;
+  font-size: 22px;
 }
 
 header p {
-  margin-left: 8px;
+  margin-left: 16px;
 }
 
 
@@ -264,8 +269,8 @@ h4{
   border-radius: 20px;
   grid-row-start: 8;
   grid-row-end: 13;
-  grid-column-start:9;
-  grid-column-end: 4;
+  grid-column-start:10;
+  grid-column-end: 5;
   padding: 3%;
   background-color: #616680;
   box-shadow: 8px 15px 3px rgba(23, 24, 27, 0.582);
