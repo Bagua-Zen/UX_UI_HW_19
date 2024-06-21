@@ -56,9 +56,15 @@
 .playwrite-us-trad {
   font-family: "Playwrite US Trad", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
+
+.loadSC {
+  display: flex;
+  justify-content: center;
+}
+
 
 body {
   margin: 0;
@@ -267,7 +273,7 @@ h3 {
   padding:1.5%;
   padding-top: 30px;
   align-items: center;
-  text-align: center;
+  text-align: left;
   margin: 2%;
 }
 
@@ -315,6 +321,7 @@ h4{
   background-image: linear-gradient(rgb(61, 77, 132) 0%, rgb(127, 149, 211) 0%, rgb(59, 67, 99) 100%); 
   box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 2px 0px; 
   border:none; 
+  margin: 4px;
   display: inline-block;}
   .myButton:hover {
   background: #3D4D84; }
@@ -411,7 +418,21 @@ footer li {
     background: #000F20; }
 
 .smoothScroll{
-    color: rgb(255, 255, 255); font-size: 13px; line-height: 13px; padding: 5px; border-radius: 4px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(139, 188, 93) 0%, rgb(213, 247, 97) 100%, rgb(8, 40, 2) 100%); box-shadow: rgba(0, 0, 0, 0.47) 0px 12px 15px 0px; border: 0px solid rgb(28, 110, 164); display: inline-block;}
+    color: rgb(255, 255, 255); 
+    font-size: 13px; 
+    line-height: 13px; 
+    padding: 5px; 
+    border-radius: 4px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(rgb(139, 188, 93) 0%, rgb(213, 247, 97) 100%, rgb(8, 40, 2) 100%); 
+    box-shadow: rgba(0, 0, 0, 0.47) 0px 12px 15px 0px; 
+    border: 0px solid rgb(28, 110, 164); 
+    display: inline-block;}
     .smoothScroll:hover {
     background: #8BBC5D; }
     .smoothScroll:active {
